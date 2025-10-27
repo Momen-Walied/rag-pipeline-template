@@ -5,6 +5,8 @@ httpx
 requests
 faiss-cpu
 langchain
-openai
+langchain-community
+ollama
+sentence-transformers
 PyPDF2
 chromadb
