@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pytest
+httpx
+requests
+faiss-cpu
+langchain
+openai
+PyPDF2
+chromadb

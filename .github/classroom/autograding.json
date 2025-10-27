@@ -1,0 +1,25 @@
+{
+    "tests": [
+      {
+        "name": "Health Endpoint Test",
+        "setup": "pip install -r requirements.txt",
+        "run": "pytest tests/test_endpoints.py::test_health",
+        "input": "",
+        "expected_output": "",
+        "comparison": "exact",
+        "timeout": 60,
+        "points": 3
+      },
+      {
+        "name": "Ask Endpoint Test",
+        "setup": "pip install -r requirements.txt",
+        "run": "pytest tests/test_endpoints.py::test_ask",
+        "input": "",
+        "expected_output": "",
+        "comparison": "exact",
+        "timeout": 60,
+        "points": 7
+      }
+    ],
+    "version": 0
+  }
